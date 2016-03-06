@@ -1,0 +1,22 @@
+akashic-storage users **typesafe config** for its configuration.
+
+The configuration is as follows:
+
+```
+akashic.storage {
+  # The mountpoint of the backing filesystem
+  # User need to prepare this mountpoint before starting akashic-storage server.
+  mountpoint = /tmp/akashic-storage-test
+
+  # IP address or hostname to bind.
+  ip = localhost
+
+  # port to bind.
+  port = 10946
+
+  # akashic-storage uses Basic authentication scheme for the admin APIs.
+  # Users need to add Authorization header to access admin APIs:
+  # Authorization: Basic base64encode("admin:${admin-passwd}")
+  admin-passwd = passwd
+}
+```
