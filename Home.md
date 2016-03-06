@@ -1,1 +1,1 @@
-Welcome to the akashic-storage wiki!
+# akashic-storage
