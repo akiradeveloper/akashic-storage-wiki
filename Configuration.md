@@ -1,4 +1,4 @@
-akashic-storage users **typesafe config** for its configuration.
+akashic-storage uses **typesafe config** for its configuration.
 
 The configuration is as follows:
 
