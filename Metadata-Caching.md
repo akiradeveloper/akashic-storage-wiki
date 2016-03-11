@@ -1,1 +1,1 @@
-TBD
+akashic-storage stores every metadata files so it causes more than one file read against the backing filesystem per a GET request.
