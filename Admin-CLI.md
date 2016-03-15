@@ -4,9 +4,10 @@ The akashic-admin CLI is written in Go and has the following sub commands:
 
 * config - Make a config file under HOME directory
 * add - Add a user
-* get $userId - Get a user
+* get userId - Get a user
 * (TODO) list - List users
-* (TODO) update - Update a user
+* (TODO) update userId flags... - Update a user's attributes
+* (TODO) setup-mc userId - Setup mc's config
 
 ## How to install
 
