@@ -2,17 +2,18 @@ While you are able to manage user accounts through raw HTTP requests (Admin APIs
 
 The akashic-admin CLI is written in Go and has the following sub commands:
 
-* add
-* remove
-* update
-* setup-mc-config (add a user and set up the mc config below the home directory)
+* config - Make a config file under HOME directory
+* add - Add a user
+* get $userId - Get a user
+* (TODO) list - List users
+* (TODO) update - Update a user
 
 ## How to install
 
 ```
 $ cd akashic-admin
 $ make
-# PREFIX=/usr/local make install
+# make install
 ```
 
-Note that Golang compiler is prerequisite and the actual binaries are installed at `PREFIX`/bin.
+Note that Golang compiler is prerequisite and the actual binaries are installed at `/usr/local/bin`. To uninstall, just do `make clean`.
