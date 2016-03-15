@@ -12,7 +12,7 @@ The akashic-admin CLI is written in Go and has the following sub commands:
 ## How to install
 
 ```
-$ cd akashic-admin
+$ cd admin-cli
 $ make
 # make install
 ```
