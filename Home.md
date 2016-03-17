@@ -12,3 +12,4 @@
   * [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
   * [Access from minio/mc](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-minio-mc)
   * [Access from aws-sdk-java](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-aws-sdk-java)
+* [Contribution](https://github.com/akiradeveloper/akashic-storage/wiki/Contribution)
