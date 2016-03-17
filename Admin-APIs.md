@@ -1,7 +1,8 @@
 To manage user accounts, you need to talk to the server via HTTP requests
 
 * Add a user: `POST /admin/user`
-* Lookup a user: `GET /admin/user/$userId`
+* GET a user: `GET /admin/user/$userId`
+* LIST users: `GET /admin/user/`
 * Update a user: `PUT /admin/user/$userId + entity (:: XML)`
 
 Basic authentication scheme is required to add to any API requests.
