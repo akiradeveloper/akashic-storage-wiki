@@ -7,9 +7,9 @@
 * User Guide
   * [Getting Started](https://github.com/akiradeveloper/akashic-storage/wiki/Getting-Started)
   * [Installing the server daemon](https://github.com/akiradeveloper/akashic-storage/wiki/Installing-the-server-daemon)
+  * [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
   * [Admin APIs](https://github.com/akiradeveloper/akashic-storage/wiki/Admin-APIs)
   * [Admin CLI](https://github.com/akiradeveloper/akashic-storage/wiki/Admin-CLI)
-  * [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
   * [Access from minio/mc](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-minio-mc)
   * [Access from aws-sdk-java](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-aws-sdk-java)
 * [Contribution](https://github.com/akiradeveloper/akashic-storage/wiki/Contribution)
