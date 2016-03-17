@@ -1,7 +1,7 @@
 # akashic-storage
 
 * [Motivation](https://github.com/akiradeveloper/akashic-storage/wiki/Motivation)
-* [Supported S3 APIs](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-S3-APIs)
+* [Supported Features](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-Features)
 * [Principle](https://github.com/akiradeveloper/akashic-storage/wiki/Principle)
 * [Metadata Caching](https://github.com/akiradeveloper/akashic-storage/wiki/Metadata-Caching)
 * User Guide
