@@ -1,5 +1,6 @@
 To start using akashic-storage in your production environment the best way is to install server daemon and operate the daemon via Linux's traditional sysvinit scripts (e.g. `service akashic-storage start`)
 
+## Install
 To install the daemon, please run
 
 ```
@@ -19,6 +20,8 @@ The following stuffs are installed into your server:
 /opt/akashic-storage/etc/logback.xml
 ```
 
+## Configuration
+
 You can update the configuration of the server by modifying `/opt/akashic-storage/etc/application.conf`. If you want to set mountpoint and ip address from the default values the file should be like:
 
 
@@ -34,6 +37,16 @@ akashic.storage {
 
 and then start the daemon
 
+## Startup
+
 ```
 $ service akashic-storage start
+```
+
+## Update (jar file only)
+
+```
+$ cd installer
+$ make
+# make update
 ```
