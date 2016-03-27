@@ -13,4 +13,5 @@
   * [Admin CLI](https://github.com/akiradeveloper/akashic-storage/wiki/Admin-CLI)
   * [Access from minio/mc](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-minio-mc)
   * [Access from aws-sdk-java](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-aws-sdk-java)
+  * [Logging](https://github.com/akiradeveloper/akashic-storage/wiki/Logging)
 * [Contribution](https://github.com/akiradeveloper/akashic-storage/wiki/Contribution)
