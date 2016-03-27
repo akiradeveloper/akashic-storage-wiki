@@ -4,8 +4,8 @@ To install the daemon, please run
 
 ```
 $ cd installer
-$ sh compiler-jar.sh
-# sh install.sh
+$ make
+# make install
 ```
 
 The following stuffs are installed into your server:
