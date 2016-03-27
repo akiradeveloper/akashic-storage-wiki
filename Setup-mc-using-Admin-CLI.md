@@ -24,7 +24,7 @@ $ akashic-admin-add
 $ akashic-admin-get 
 ```
 
-And then tell the user the accessKey and secretKey in this XML.
+And then tell the user the accessKey and secretKey in this XML. (Don't give the whole XML)
 
 ## At the client side
 
