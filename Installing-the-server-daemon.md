@@ -19,7 +19,7 @@ The following stuffs are installed into your server:
 /opt/akashic-storage/etc/logback.xml
 ```
 
-You can update the configuration of the server by modifying `/opt/akashic-storage/etc/conf`. If you want to set mountpoint and ip address from the default values the file should be like:
+You can update the configuration of the server by modifying `/opt/akashic-storage/etc/application.conf`. If you want to set mountpoint and ip address from the default values the file should be like:
 
 
 ```
