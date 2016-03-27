@@ -19,5 +19,6 @@ The trait defines the minimum set of operations that akachic-storage core requir
 * Pseudo filesystems
 * Key-Value stores
 * Distributed filesystems
+* Other object storages (it can be akashic-storage!)
 
 S3 APIs is so complicated if you need to implement from scratch. So if you are developing some distributed filesystem and then have a need to provide S3 APIs, you can use akashic-storage and both you and me will be happy :)
