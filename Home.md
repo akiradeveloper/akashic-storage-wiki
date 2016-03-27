@@ -2,10 +2,10 @@
 
 * [Motivation](https://github.com/akiradeveloper/akashic-storage/wiki/Motivation)
 * [S3 Adapter Design](https://github.com/akiradeveloper/akashic-storage/wiki/S3-Adapter-Design)
-* [Supported Features](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-Features)
 * [Principle](https://github.com/akiradeveloper/akashic-storage/wiki/Principle)
 * [Metadata Caching](https://github.com/akiradeveloper/akashic-storage/wiki/Metadata-Caching)
 * User Guide
+  * [Supported Features](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-Features)
   * [Getting Started](https://github.com/akiradeveloper/akashic-storage/wiki/Getting-Started)
   * [Installing the server daemon](https://github.com/akiradeveloper/akashic-storage/wiki/Installing-the-server-daemon)
   * [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
