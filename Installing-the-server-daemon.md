@@ -24,7 +24,10 @@ You can update the configuration of the server by modifying `/opt/akashic-storag
 
 ```
 akashic.storage {
-  mountpoint = /mnt/nfs/akashic-storage
+  backend {
+    type = akashic.storage.backend.Local
+    mountpoint = /mnt/akashic-storage
+  }
   ip = 192.168.10.23
 }
 ```
