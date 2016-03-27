@@ -1,5 +1,7 @@
 # akashic-storage
 
+Welcome to akashic-storage project!
+
 * [Motivation](https://github.com/akiradeveloper/akashic-storage/wiki/Motivation)
 * [S3 Adapter Design](https://github.com/akiradeveloper/akashic-storage/wiki/S3-Adapter-Design)
 * [Principle](https://github.com/akiradeveloper/akashic-storage/wiki/Principle)
