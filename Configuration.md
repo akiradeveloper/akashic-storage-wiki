@@ -4,9 +4,8 @@ The configuration is as follows:
 
 ```
 akashic.storage {
-  # The mountpoint of the backing filesystem
-  # User need to prepare this mountpoint before starting akashic-storage server.
-  mountpoint = /tmp/akashic-storage-test
+  backend {
+  }
 
   # IP address or hostname to bind.
   ip = localhost
