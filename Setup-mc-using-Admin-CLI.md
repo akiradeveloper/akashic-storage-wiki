@@ -1,5 +1,3 @@
-TBD
-
 This is a case study of creating a user account and setup mc for the user.
 
 Please run a akashic-storage server and install admin-cli, mc beforehand.
@@ -16,12 +14,21 @@ $ akashic-admin-config
 
 ```
 $ akashic-admin-add 
+ujdi6HyF4A8jiGWW43JcQuU5ppX1YtrxZEEvmxRDOfNrnYnJL1q1zSKAIzGbLdEw
 ```
 
 **Getting an account info**
 
 ```
-$ akashic-admin-get 
+$ akashic-admin-get ujdi6HyF4A8jiGWW43JcQuU5ppX1YtrxZEEvmxRDOfNrnYnJL1q1zSKAIzGbLdEw
+<User>
+  <Id>ujdi6HyF4A8jiGWW43JcQuU5ppX1YtrxZEEvmxRDOfNrnYnJL1q1zSKAIzGbLdEw</Id>
+  <AccessKey>EKW3WJKHBOWW1WUPOYAP</AccessKey>
+  <SecretKey>NG5B57DPkqQqyjBkTo6Ja4m2pCRCoFEOUj5UXjyR</SecretKey>
+  <Name>noname</Name>
+  <Email>noname@noname.org</Email>
+  <DisplayName>noname</DisplayName>
+</User>
 ```
 
 And then tell the user the accessKey and secretKey in this XML. (Don't give the whole XML)
@@ -29,5 +36,5 @@ And then tell the user the accessKey and secretKey in this XML. (Don't give the 
 ## At the client side
 
 ```
-$ mc config host add alias http://$hostname:$port $accessKey $secretKey S3v2
+$ mc config host add alias http://$hostname:$port EKW3WJKHBOWW1WUPOYAP NG5B57DPkqQqyjBkTo6Ja4m2pCRCoFEOUj5UXjyR S3v2
 ```
