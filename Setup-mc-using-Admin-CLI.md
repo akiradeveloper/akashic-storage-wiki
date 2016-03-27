@@ -9,7 +9,7 @@ Please run a akashic-storage server and install admin-cli, mc beforehand.
 **Configure akashic-admin**
 
 ```
-akashic-admin-config
+$ akashic-admin-config
 ```
 
 **Creating an account**
@@ -21,11 +21,11 @@ $ akashic-admin-add
 **Getting an account info**
 
 ```
-akashic-admin-get 
+$ akashic-admin-get 
 ```
 
 ## At the client side
 
 ```
-mc config host add alias http://$hostname:$port $accessKey $secretKey S3v2
+$ mc config host add alias http://$hostname:$port $accessKey $secretKey S3v2
 ```
