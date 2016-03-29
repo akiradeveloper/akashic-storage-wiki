@@ -1,7 +1,7 @@
 akashic-storage can serve S3 APIs on top of any storage backend. The `FileSystemLike` trait gives you the abstraction to implement the adapter to the backend.
 
 ```scala
-trait FileSystemLike {
+trait BAL {
   def getRoot: Node
   def isDirectory(n: Node): Boolean
   def moveNode(n: Node, dir: Node, name: String, replaceIfExists: Boolean)
