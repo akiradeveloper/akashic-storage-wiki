@@ -3,7 +3,7 @@
 Welcome to akashic-storage project!
 
 * [Motivation](https://github.com/akiradeveloper/akashic-storage/wiki/Motivation)
-* [Backend abstraction layer](https://github.com/akiradeveloper/akashic-storage/wiki/Backend-abstraction-layer)
+* [Backend Abstraction Layer (BAL)](https://github.com/akiradeveloper/akashic-storage/wiki/Backend-Abstraction-Layer-(BAL))
 * [Principle](https://github.com/akiradeveloper/akashic-storage/wiki/Principle)
 * [Metadata Caching](https://github.com/akiradeveloper/akashic-storage/wiki/Metadata-Caching)
 * User Guide
