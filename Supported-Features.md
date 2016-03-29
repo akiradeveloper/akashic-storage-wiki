@@ -6,7 +6,7 @@ akashic-storage supports a subset of [AWS S3 APIs](http://docs.aws.amazon.com/ja
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
-| GET Service | Supported | |
+| GET Service | Supported | Conditional (If-Match, ...) and Range header is supported |
 | PUT Bucket | Supported | |
 | GET Bucket | Supported | |
 | PUT Object | Supported | |
