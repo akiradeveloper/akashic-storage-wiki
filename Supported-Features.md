@@ -40,7 +40,7 @@ I definitely won't support this.
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
-| POST Object | Not Supported | Never Supported |
+| POST Object | Not Supported | No plan |
 
 ## Subresources
 
