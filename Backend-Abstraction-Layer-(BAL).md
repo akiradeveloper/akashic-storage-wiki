@@ -1,4 +1,4 @@
-akashic-storage can serve S3 APIs on top of any storage backend. The `FileSystemLike` trait gives you the abstraction to implement the adapter to the backend.
+akashic-storage can serve S3 APIs on top of any storage backend. The `BAL` trait gives you the abstraction to implement the adapter to the backend.
 
 ```scala
 trait BAL {
@@ -19,6 +19,6 @@ The trait defines the minimum set of operations that akachic-storage core requir
 * Pseudo filesystems
 * Key-Value stores
 * Distributed filesystems
-* Other object storages (it can be akashic-storage!)
+* Other object storages (it can be akashic-storage itself!)
 
 S3 APIs is so complicated if you need to implement from scratch. So if you are developing some distributed filesystem and then have a need to provide S3 APIs, you can use akashic-storage and both you and me will be happy :)
