@@ -18,4 +18,5 @@ Welcome to akashic-storage project!
   * [Setup mc using Admin CLI](https://github.com/akiradeveloper/akashic-storage/wiki/Setup-mc-using-Admin-CLI)
   * [Logging](https://github.com/akiradeveloper/akashic-storage/wiki/Logging)
 * [Contribution](https://github.com/akiradeveloper/akashic-storage/wiki/Contribution)
+  * [Logo by @kiaking](https://github.com/akiradeveloper/akashic-storage/wiki/Logo)
 * [Developer](https://github.com/akiradeveloper/akashic-storage/wiki/Developer)
