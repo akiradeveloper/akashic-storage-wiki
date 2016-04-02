@@ -10,6 +10,7 @@ akashic-storage supports a subset of [AWS S3 APIs](http://docs.aws.amazon.com/ja
 | PUT Bucket | Supported | |
 | GET Bucket | Supported | |
 | PUT Object | Supported | |
+| PUT Object - Copy | Not Supported | |
 | GET Object | Supported | |
 | HEAD Object | Supported | |
 | HEAD Bucket | Supported | |
@@ -27,6 +28,8 @@ akashic-storage supports a subset of [AWS S3 APIs](http://docs.aws.amazon.com/ja
 | API Name | Status | Remarks |
 |:--|:--|:--|
 | Initiate Multipart Upload | Supported | |
+| Upload Part | Supported | |
+| Upload Part - Copy | Not Supported | |
 | Complete Multipart Upload | Supported | |
 | List Multipart Upload | Supported | |
 | Abort Multipart Upload | Supported | |
@@ -34,7 +37,7 @@ akashic-storage supports a subset of [AWS S3 APIs](http://docs.aws.amazon.com/ja
 
 ### POST Object
 
-With Akka-HTTP (2.4.2) it's really hard (nearly impossible) to implement POST Object.
+With Akka-HTTP (2.4.3) it's really hard (nearly impossible) to implement POST Object.
 Also I don't think there are any potential users of this API.
 I definitely won't support this.
 
