@@ -1,3 +1,3 @@
-![](https://github.com/akiradeveloper/akashic-storage/wiki)
+![](https://rawgit.com/akiradeveloper/akashic-storage/develop/resources/concept.svg)
 
 @kiaking contributed the special logo for this project. Thanks to Kia!
