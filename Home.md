@@ -1,4 +1,4 @@
-# akashic-storage
+![](https://raw.githubusercontent.com/akiradeveloper/akashic-storage/develop/resources/logo-transparent.png)
 
 Welcome to akashic-storage project!
 
