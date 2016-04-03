@@ -9,6 +9,7 @@ Welcome to akashic-storage project!
 * User Guide
   * [Supported Features](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-Features)
   * [Getting Started](https://github.com/akiradeveloper/akashic-storage/wiki/Getting-Started)
+  * [Requirements](https://github.com/akiradeveloper/akashic-storage/wiki/Requirements)
   * [Installing the server daemon](https://github.com/akiradeveloper/akashic-storage/wiki/Installing-the-server-daemon)
   * [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
   * [Admin APIs](https://github.com/akiradeveloper/akashic-storage/wiki/Admin-APIs)
