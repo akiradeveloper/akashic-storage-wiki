@@ -1,6 +1,6 @@
 akashic-storage utilizes logback library to leave logs for debugging.
 
-All logs are stored in `/var/log/akashic-storage/` directory and
+All logs are stored in `/opt/akashic-storage/log` directory and
 very helpful for debugging.
 So when you send me a bug report and not sure the real cause is
 please send all the logs under the directory.
