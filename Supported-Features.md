@@ -9,7 +9,7 @@ akashic-storage supports a subset of [AWS S3 APIs](http://docs.aws.amazon.com/ja
 | GET Service | Supported | Conditional (If-Match, ...) and Range header are supported |
 | PUT Bucket | Supported | |
 | GET Bucket | Supported | |
-| PUT Object | Supported | |
+| PUT Object | Supported | Upload size is limited to 16MB. To upload larger object please use Multipart Upload (MPU) instead, which is faster and stable. mc cp by default use MPU. |
 | PUT Object - Copy | Not Supported | |
 | GET Object | Supported | |
 | HEAD Object | Supported | |
