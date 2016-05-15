@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/akiradeveloper/akashic-storage/develop/resources/logo-transparent.png)
 
-Welcome to akashic-storage project!
+## Welcome to akashic-storage project!
 
 * [Motivation](https://github.com/akiradeveloper/akashic-storage/wiki/Motivation)
 * [Getting Started (Vagrant)](https://github.com/akiradeveloper/akashic-storage/wiki/Getting-Started)
@@ -17,3 +17,4 @@ Welcome to akashic-storage project!
 * Client
   * [Access from minio/mc](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-minio-mc)
   * [Access from aws-sdk-java](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-aws-sdk-java)
+
