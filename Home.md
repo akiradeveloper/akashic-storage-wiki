@@ -3,8 +3,8 @@
 Welcome to akashic-storage project!
 
 * [Motivation](https://github.com/akiradeveloper/akashic-storage/wiki/Motivation)
-* [Getting Started](https://github.com/akiradeveloper/akashic-storage/wiki/Getting-Started)
-＊ Server Daemon
+* [Getting Started (Vagrant)](https://github.com/akiradeveloper/akashic-storage/wiki/Getting-Started)
+* Server Daemon
   * [Supported Features](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-Features)
   * [Installation](https://github.com/akiradeveloper/akashic-storage/wiki/Installing-the-server-daemon)
   * [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
@@ -13,6 +13,7 @@ Welcome to akashic-storage project!
 * User Administration
   * [Admin APIs](https://github.com/akiradeveloper/akashic-storage/wiki/Admin-APIs)
   * [Admin CLI](https://github.com/akiradeveloper/akashic-storage/wiki/Admin-CLI)
+  * [Admin Web](https://github.com/akiradeveloper/akashic-storage/wiki/Admin-Web)
 * Client
   * [Access from minio/mc](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-minio-mc)
   * [Access from aws-sdk-java](https://github.com/akiradeveloper/akashic-storage/wiki/Access-from-aws-sdk-java)
