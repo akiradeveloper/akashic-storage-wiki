@@ -5,6 +5,8 @@ The configuration is as follows:
 ```
 akashic.storage {
   backend {
+    type = akashic.storage.backend.impl.Local
+    mountpoint = /mnt/akashic-storage
   }
 
   # IP address or hostname to bind.
