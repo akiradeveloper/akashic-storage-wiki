@@ -1,6 +1,7 @@
 To start using akashic-storage in your production environment the best way is to install server daemon and operate the daemon via Linux's traditional sysvinit scripts (e.g. `service akashic-storage start`)
 
-## Initial Installation
+**Initial Installation**
+
 To install the daemon, please run
 
 ```
@@ -20,7 +21,7 @@ The following stuffs are installed into your server:
 /opt/akashic-storage/run
 ```
 
-## Update (jar file only)
+**Update (jar file only)**
 
 ```
 $ cd installer
