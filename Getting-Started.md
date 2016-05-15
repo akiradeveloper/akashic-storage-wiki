@@ -1,4 +1,4 @@
-The easiest way to try out akashic-storage is to use [Vagrant](https://www.vagrantup.com) virtual machine. It will install everything you need and set up working akashic-storage service. You can find `Vagranfile` at `/vagrant-quick-start` folder.
+The easiest way to try out akashic-storage is to use [Vagrant](https://www.vagrantup.com) virtual machine. It will install everything you need from server daemon to admin-web and set up working akashic-storage service.
 
 **1. First step**
 
@@ -13,4 +13,4 @@ $ cd vagrant-quick-start
 $ vagrant up
 ```
 
-Now you can access akashic-storage at `http://localhost:10946`.
+Now you can access akashic-storage at `http://localhost:10946` and admin-web at `http://localhost:10947`.
