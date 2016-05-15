@@ -55,10 +55,10 @@ is supported.
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
-| PUT Bucket acl | Supported | |
-| GET Bucket acl | Supported | |
-| PUT Object acl | Supported | |
-| GET Object acl | Supported | |
+| PUT Bucket ACL | Supported | |
+| GET Bucket ACL | Supported | |
+| PUT Object ACL | Supported | |
+| GET Object ACL | Supported | |
 
 **Policy**
 
@@ -70,7 +70,7 @@ Location is supported but returns false us-east-1, the default location in AWS S
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
-| PUT Bucket acl | Supported | |
+| PUT Bucket Location | Supported | |
 
 **Versioning**
 In v1.0, versioning isn't supported because of the implementation complexity.
