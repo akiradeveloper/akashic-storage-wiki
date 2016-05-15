@@ -31,8 +31,13 @@ Here is the comparison:
 
 **Why: Scala/Akka-HTTP**
 
-I choose to use Scala language to implement akashic-storage because I believe writing in softwares in (even not purely) functional way is the most powerful way to extinguish bugs from the software. The functional code is often more readable because side-effects are hidden under the code and then shorter.
+I choose to use Scala language to implement akashic-storage because I believe writing in softwares in (even not purely) functional way is the most effective way to extinguish bugs from the software. The functional code is often even readable because side-effects are hidden under the codes.
 
-Akka-HTTP is chosen because although it's still experimental it's the next de-facto HTTP framework provided by Lightbend (former Typesafe) instead of Play. The codebase is inherited from Spray, a known light-weight HTTP framework so Akka-HTTP has a great potential to be enough performant.
+Akka-HTTP is chosen because although it's still experimental it's the next de-facto HTTP framework provided by Lightbend (former Typesafe) instead of Play. The codebase is inherited from Spray, a known light-weight HTTP framework so Akka-HTTP has a potential to be greatly performant.
 
 **Why: The Name**
+
+I named this software akashic-storage for the following reasons:
+
+* akashic records is a imaginary storage that stores all memories of the past and the future without any data-loss. akashic-storage is named hoping higher scalability and durability.
+* My name **Ak**ira. Some string match.
