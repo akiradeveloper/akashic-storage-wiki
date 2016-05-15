@@ -1,6 +1,6 @@
 akashic-storage uses **typesafe config** for its configuration. You can change the backend, listening port etc by modifying `/opt/akashic-storage/etc/application.conf`.
 
-The configuration will be something like this:
+The configuration would be something like this:
 
 ```
 akashic.storage {
