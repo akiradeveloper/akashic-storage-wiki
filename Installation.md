@@ -20,24 +20,7 @@ The following stuffs are installed into your server:
 /opt/akashic-storage/run
 ```
 
-## Configuration
-
-You can update the configuration of the server by modifying `/opt/akashic-storage/etc/application.conf`. If you want to set mountpoint and ip address from the default values the file should be like:
-
-
-```
-akashic.storage {
-  backend {
-    type = akashic.storage.backend.Local
-    mountpoint = /mnt/akashic-storage
-  }
-  ip = 192.168.10.23
-}
-```
-
-and then start the daemon
-
-## Startup
+## Start up
 
 ```
 $ service akashic-storage start
