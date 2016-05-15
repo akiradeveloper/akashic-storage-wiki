@@ -5,9 +5,6 @@ The configuration is as follows:
 ```
 akashic.storage {
   backend {
-    // backend specific configurations
-    // see backend-doc/
-    // (e.g. backend-doc/Local.md)
   }
 
   # IP address or hostname to bind.
