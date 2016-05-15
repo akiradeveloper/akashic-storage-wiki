@@ -5,9 +5,9 @@ Welcome to akashic-storage project!
 * [Motivation](https://github.com/akiradeveloper/akashic-storage/wiki/Motivation)
 * [Getting Started (Vagrant)](https://github.com/akiradeveloper/akashic-storage/wiki/Getting-Started)
 * Server Daemon
-  * [Supported Features](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-Features)
-  * [Installation](https://github.com/akiradeveloper/akashic-storage/wiki/Installation)
+  * [Startup](https://github.com/akiradeveloper/akashic-storage/wiki/Installation)
   * [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
+  * [Supported Features](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-Features)
   * [Logging](https://github.com/akiradeveloper/akashic-storage/wiki/Logging)
   * [Backend Abstraction Layer (BAL)](https://github.com/akiradeveloper/akashic-storage/wiki/Backend-Abstraction-Layer-(BAL))
 * User Administration
