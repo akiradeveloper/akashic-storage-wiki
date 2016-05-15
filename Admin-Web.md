@@ -2,7 +2,7 @@ By using Admin-CLI it's easy to manage user accounts but administrator still nee
 
 Admin-Web is written in Sinatra and Ruby, and it's a small web application backed by Admin-CLI. Therefore you need to setup Admin-CLI booting up the web app.
 
-### Installation
+**Installation**
 
 ```
 $ gem install bundler
@@ -10,7 +10,7 @@ $ cd admin-web
 $ bundle install
 ```
 
-### Start up
+**Start up**
 
 ```
 $ sh run-daemon.sh
