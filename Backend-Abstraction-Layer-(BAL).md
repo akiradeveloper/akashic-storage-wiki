@@ -4,14 +4,13 @@ akashic-storage can serve S3 APIs on top of any storage backend. The `BAL` trait
 trait BAL {
   def getRoot: Node
   def isDirectory(n: Node): Boolean
-  def moveNode(n: Node, dir: Node, name: String, replaceIfExists: Boolean)
-  def removeNode(n: Node)
+  def moveNode(fromDir: Node, fromName: String, toDir: Node, toName: String)
+  def removeNode(dir: Node, name: String)
   def makeDirectory(dir: Node, name: String): Unit
   def lookup(dir: Node, name: String): Option[Node]
   def listDirectory(n: Node): Iterable[(String, Node)]
-  def createFile(dir: Node, name: String, data: Stream[Option[Array[Byte]]]): Unit
+  def createFile(dir: Node, name: String, data: InputStream): Unit
   def getFileInputStream(n: Node): InputStream
-  def getFileAttr(n: Node): FileAttr
 ```
 
 The trait defines the minimum set of operations that akachic-storage core requires. It's far simpler than POSIX filesystem APIs so it's possible to realize to work with backends like:
