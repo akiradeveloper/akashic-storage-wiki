@@ -1,4 +1,4 @@
-The easiest way to try out akashic-storage is to use [Vagrant](https://www.vagrantup.com) virtual machine. It will install everything you need from server daemon to admin-web and set up working akashic-storage service.
+The easiest way to try out akashic-storage is to use [Vagrant](https://www.vagrantup.com) virtual machine. It will install everything you need from server daemon to admin-web and set up working akashic-storage service. You can see a Vagrantfile on the project top-level.
 
 **Requirements**
 
@@ -9,7 +9,6 @@ Before launching your Vagrant environment, you must install [VirtualBox 5.x](htt
 Once you finish installing Vagrant, you can now boot up your Vagrant VM.
 
 ```
-$ cd vagrant-quick-start
 $ vagrant up
 ```
 
