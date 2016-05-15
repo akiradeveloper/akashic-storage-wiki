@@ -78,6 +78,7 @@ I definitely will support this in beyond v1.0.
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
+| GET Bucket Versioning | Supported | |
 | GET Bucket Object Versions | Supported | |
 
 **Cross Origin Resource Sharing (CORS)**
