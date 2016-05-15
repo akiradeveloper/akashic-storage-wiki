@@ -8,7 +8,7 @@ The akashic-admin CLI is entirely written in Go and has the following sub comman
 * list - List users
 * update \<userId\> \<flags...\> - Update a user's attributes
 
-## How to install
+## Installation
 
 ```
 $ cd admin-cli
