@@ -2,7 +2,12 @@ akashic-storage supports [AWS Signature Version 2](http://docs.aws.amazon.com/Am
 
 You can access the server by either authenticated or unauthenticated (or anonymous) requests.
 
-**Authenticated**
+**Installation**
+
+Visit https://github.com/aws/aws-sdk-java. Use 1.0.97 or higher.
+
+
+**As an authenticated user**
 
 ```java
 val conf = new ClientConfiguration
@@ -15,7 +20,7 @@ cli.setS3ClientOptions(new S3ClientOptions().withPathStyleAccess(true))
 
 `withPathStyleAccess(true)` is required because akashic-storage supports "path style" rather than "virtual-hosted style" method (see http://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html)
 
-**Unauthenticated (or Anonymous)**
+**As an unauthenticated user**
 
 To access as an anonymous user you can use `AnonymousAWSCredentials` instead.
 
