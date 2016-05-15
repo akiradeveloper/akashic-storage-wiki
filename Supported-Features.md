@@ -1,8 +1,8 @@
 akashic-storage supports a subset of [AWS S3 APIs](http://docs.aws.amazon.com/ja_jp/AmazonS3/latest/API/APIRest.html)
 
-## I/O Operations
+### I/O Operations
 
-### Basic PUT/GET
+**Basic PUT/GET**
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
@@ -16,14 +16,14 @@ akashic-storage supports a subset of [AWS S3 APIs](http://docs.aws.amazon.com/ja
 | HEAD Bucket | Supported | |
 
 
-### Delete Bucket/Object
+**Delete Bucket/Object**
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
 | Delete Bucket | Supported | |
 | Delete Object | Supported | |
 
-### Multipart Upload
+**Multipart Upload**
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
@@ -35,7 +35,7 @@ akashic-storage supports a subset of [AWS S3 APIs](http://docs.aws.amazon.com/ja
 | Abort Multipart Upload | Supported | |
 | List Parts | Supported | |
 
-### POST Object
+**POST Object**
 
 With Akka-HTTP (2.4.3) it's really hard (nearly impossible) to implement POST Object.
 Also I don't think there are any potential users of this API.
@@ -45,9 +45,9 @@ I definitely won't support this.
 |:--|:--|:--|
 | POST Object | Not Supported | No plan |
 
-## Subresources
+### Subresources
 
-## Access Control List (ACL)
+**Access Control List (ACL)**
 
 ACL is used to grant permissions to resources.
 As for the grantee type, both authenticated user and anonymous user
@@ -60,19 +60,19 @@ is supported.
 | PUT Object acl | Supported | |
 | GET Object acl | Supported | |
 
-## Policy
+**Policy**
 
 Because I think having ACL is almost sufficient
 I have no idea at the present to implement access control by Policy.
 
-## Location
+**Location**
 Location is supported but returns false us-east-1, the default location in AWS S3.
 
 | API Name | Status | Remarks |
 |:--|:--|:--|
 | PUT Bucket acl | Supported | |
 
-## Versioning
+**Versioning**
 In v1.0, versioning isn't supported because of the implementation complexity.
 I definitely will support this in beyond v1.0.
 
@@ -80,7 +80,7 @@ I definitely will support this in beyond v1.0.
 |:--|:--|:--|
 | GET Bucket Object Versions | Supported | |
 
-## Cross Origin Resource Sharing (CORS)
+**Cross Origin Resource Sharing (CORS)**
 
 CORS is required when client issues AJAX requests to a server in a difference origin.
 akashic-storage can theoretically support these APIs but
