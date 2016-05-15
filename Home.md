@@ -5,7 +5,7 @@
 * [Motivation](https://github.com/akiradeveloper/akashic-storage/wiki/Motivation)
 * [Getting Started (Vagrant)](https://github.com/akiradeveloper/akashic-storage/wiki/Getting-Started)
 * Server Daemon
-  * [Startup](https://github.com/akiradeveloper/akashic-storage/wiki/Installation)
+  * [Installation](https://github.com/akiradeveloper/akashic-storage/wiki/Installation)
   * [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
   * [Supported Features](https://github.com/akiradeveloper/akashic-storage/wiki/Supported-Features)
   * [Logging](https://github.com/akiradeveloper/akashic-storage/wiki/Logging)
