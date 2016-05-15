@@ -26,6 +26,8 @@ The following stuffs are installed into your server:
 $ service akashic-storage start
 ```
 
+You can configure the server daemon before startup. see [Configuration](https://github.com/akiradeveloper/akashic-storage/wiki/Configuration)
+
 ## Update (jar file only)
 
 ```
